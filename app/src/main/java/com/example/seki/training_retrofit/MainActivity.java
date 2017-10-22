@@ -1,4 +1,4 @@
-package com.example.seki.training_rx_1;
+package com.example.seki.training_retrofit;
 
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;

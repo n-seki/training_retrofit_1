@@ -1,4 +1,4 @@
-package com.example.seki.training_rx_1;
+package com.example.seki.training_retrofit;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

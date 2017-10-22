@@ -1,4 +1,4 @@
-package com.example.seki.training_rx_1;
+package com.example.seki.training_retrofit;
 
 import android.databinding.DataBindingUtil;
 import android.support.v7.widget.RecyclerView;
@@ -6,7 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.seki.training_rx_1.databinding.ItemWeatherBinding;
+import com.example.seki.training_retrofit.databinding.ItemWeatherBinding;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,7 +38,7 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.WeatherViewHol
     @Override
     public void onBindViewHolder(WeatherViewHolder holder, int position) {
         final WeatherData data = mWeatherDatas.get(position);
-        holder.mBinding.setVariable(com.example.seki.training_rx_1.BR.data, data);
+        holder.mBinding.setVariable(com.example.seki.training_retrofit.BR.data, data);
         holder.mBinding.executePendingBindings();
     }
 

@@ -1,4 +1,4 @@
-package com.example.seki.training_rx_1;
+package com.example.seki.training_retrofit;
 
 public final class WeatherData {
     public Location location;

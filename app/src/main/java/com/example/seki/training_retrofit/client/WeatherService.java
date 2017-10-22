@@ -1,6 +1,6 @@
-package com.example.seki.training_rx_1.client;
+package com.example.seki.training_retrofit.client;
 
-import com.example.seki.training_rx_1.WeatherData;
+import com.example.seki.training_retrofit.WeatherData;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

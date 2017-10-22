@@ -1,4 +1,4 @@
-package com.example.seki.training_rx_1;
+package com.example.seki.training_retrofit;
 
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -12,7 +12,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-import com.example.seki.training_rx_1.client.WeatherService;
+import com.example.seki.training_retrofit.client.WeatherService;
 
 import retrofit2.Call;
 import retrofit2.Callback;
