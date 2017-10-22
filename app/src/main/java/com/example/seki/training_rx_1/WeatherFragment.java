@@ -59,6 +59,9 @@ public class WeatherFragment extends Fragment {
         final Button button = (Button)view.findViewById(R.id.button);
         button.setOnClickListener(v -> loadWeather("130010"));
 
+        final Button button2 = (Button)view.findViewById(R.id.button2);
+        button2.setOnClickListener(v -> loadWeather("110010"));
+
         return  view;
     }
 

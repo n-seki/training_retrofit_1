@@ -5,7 +5,7 @@ public final class WeatherData {
     public Description description;
 
     public static class Location {
-        public String area;
+        public String city;
     }
 
     public static class Description {
